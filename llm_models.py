@@ -33,7 +33,7 @@ AVAILABLE_MODELS: list[ModelInfo] = [
     {
         "id": "anthropic/claude-sonnet-5",
         "name": "Claude Sonnet 5 ⭐",
-        "description": "质量档 — 编码/agentic 接近 Opus 级，推荐生产默认（首发优惠价至 2026-08-31，之后 $3/$15）",
+        "description": "质量档 — 编码/agentic 接近 Opus 级，推荐生产默认",
         "tier": "quality",
         "input_price_per_m": 2.00,
         "output_price_per_m": 10.00,

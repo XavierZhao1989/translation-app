@@ -91,7 +91,7 @@ python cost_estimator.py uploads/your-file.json es,fr,de,ar,it,pt
 
 6. **llm_models.py** - AI 模型目录（替代旧 claude_models.py）
    - 硬编码 3 档模型（不做 runtime API 发现）：
-     - 质量档: `anthropic/claude-sonnet-5` ⭐ ($2/$10 per MTok 首发优惠至 2026-08-31，之后 $3/$15；不支持 temperature 参数)
+     - 质量档: `anthropic/claude-sonnet-5` ⭐ ($2/$10 per MTok，2026-09-28 OpenRouter 实查；不支持 temperature 参数)
      - 备选档: `openai/gpt-5.4` ✨ ($2.50/$15)
      - 经济档: `google/gemini-3.1-flash-lite-preview` 💰 ($0.25/$1.50，比 Sonnet 便宜 12x)
    - 新增模型 = 改 AVAILABLE_MODELS 常量
