@@ -21,7 +21,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # OpenRouter 推荐但非强制的 headers（用于 leaderboard / usage attribution）
 _ATTRIBUTION_HEADERS = {
-    "HTTP-Referer": "https://github.com/YorickLane/translation-app",
+    "HTTP-Referer": "https://github.com/XavierZhao1989/translation-app",
     "X-OpenRouter-Title": "Translation App",
 }
 
